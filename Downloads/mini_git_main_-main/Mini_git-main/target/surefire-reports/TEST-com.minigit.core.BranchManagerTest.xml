@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.minigit.core.BranchManagerTest" time="0.618" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Reena\Downloads\mini_git_main_-main\Mini_git-main\target\test-classes;C:\Users\Reena\Downloads\mini_git_main_-main\Mini_git-main\target\classes;C:\Users\Reena\.m2\repository\org\hibernate\orm\hibernate-core\6.6.13.Final\hibernate-core-6.6.13.Final.jar;C:\Users\Reena\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Reena\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Reena\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Reena\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\Reena\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\Reena\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Reena\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Reena\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Reena\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Reena\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Reena\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Reena\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Reena\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Reena\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Reena\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Reena\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Reena\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Reena\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Reena\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Reena\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Reena\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Reena\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Reena\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Reena\AppData\Local\Temp\surefire5379665371615960617\surefirebooter-20261026235037706_3.jar C:\Users\Reena\AppData\Local\Temp\surefire5379665371615960617 2026-10-26T23-50-37_342-jvmRun1 surefire-20261026235037706_1tmp surefire_0-20261026235037706_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Reena\Downloads\mini_git_main_-main\Mini_git-main\target\test-classes;C:\Users\Reena\Downloads\mini_git_main_-main\Mini_git-main\target\classes;C:\Users\Reena\.m2\repository\org\hibernate\orm\hibernate-core\6.6.13.Final\hibernate-core-6.6.13.Final.jar;C:\Users\Reena\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Reena\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Reena\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Reena\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\Reena\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\Reena\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Reena\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Reena\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Reena\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Reena\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Reena\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Reena\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Reena\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Reena\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Reena\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Reena\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Reena\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Reena\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Reena\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Reena\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Reena\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Reena\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Reena\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Reena"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Users\Reena\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Reena\Downloads\mini_git_main_-main\Mini_git-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Reena\AppData\Local\Temp\surefire5379665371615960617\surefirebooter-20261026235037706_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS"/>
+    <property name="user.name" value="Reena"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.12.1+1"/>
+    <property name="localRepository" value="C:\Users\Reena\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Reena\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="C:\Users\Reena\Downloads\mini_git_main_-main\Mini_git-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Reena\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\CMake\bin;C:\Users\Reena\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin;C:\Users\Reena\AppData\Local\Microsoft\WindowsApps;C:\Users\Reena\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Reena\AppData\Roaming\npm;C:\Users\Reena\AppData\Local\Python\bin;C:\Users\Reena\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\Reena\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Reena\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="rejectsInvalidAndDuplicateNames" classname="com.minigit.core.BranchManagerTest" time="0.176">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 8f1ed4c8a2979bb68816fcd524912cd36e3dda709467143048cc797963782195
+Branch: main
+Files committed: 1
+Message: first
+]]></system-out>
+  </testcase>
+  <testcase name="deleteProtectsCurrentBranchAndUnmergedWork" classname="com.minigit.core.BranchManagerTest" time="0.065">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: f549f2e125c1e04b6561107402c1aa5d4fb79d043fb6999082fda216afd1c017
+Branch: main
+Files committed: 1
+Message: first
+Staged: a.txt
+Object hash: 3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3
+Commit created successfully!
+Commit hash: eca3fcc6b9f777766dc5c2f44393738eb3a95efa23624623132f1863f6929a7f
+Branch: feature
+Files committed: 1
+Message: second
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutRefusesToOverwriteUntrackedFile" classname="com.minigit.core.BranchManagerTest" time="0.047">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 38d1dd34fdface2182883517f549c54c7f7fc3660b63fd03b2b3b8ee75f50b54
+Branch: main
+Files committed: 1
+Message: first
+Staged: extra.txt
+Object hash: 2fda2918282d121b517581a24a63c2d361192188d3dc1dba87a5ea61ceb4ae3b
+Commit created successfully!
+Commit hash: a7899b2e779746b6780411faebd263e91e08c4261c6de8ed96a2d1631213e60d
+Branch: feature
+Files committed: 2
+Message: add extra
+]]></system-out>
+  </testcase>
+  <testcase name="createsBranchAtCurrentCommit" classname="com.minigit.core.BranchManagerTest" time="0.016">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 6643e25757c15d8cda2280e023a7e9e02fcaadcd0f703d403f496e658a0f5191
+Branch: main
+Files committed: 1
+Message: first
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutSwitchesFilesBetweenBranches" classname="com.minigit.core.BranchManagerTest" time="0.063">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: a190b27ee3686458a821fe40dee88b054ad89b9f15e4856bd50244ee1d797d22
+Branch: main
+Files committed: 1
+Message: first
+Staged: a.txt
+Object hash: 3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3
+Staged: docs/b.txt
+Object hash: c8dee78f8c7b466c881847accc196998bad00e2b96c5ef913dfbe454d3807c96
+Commit created successfully!
+Commit hash: baa09ebc9f1ce809e08056cb561348da728c331eeb56f3e8898b6fd65f639aeb
+Branch: feature
+Files committed: 2
+Message: feature work
+]]></system-out>
+  </testcase>
+  <testcase name="switchingBetweenBranchesAtTheSameCommitKeepsStagedFiles" classname="com.minigit.core.BranchManagerTest" time="0.016">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 2df5d5b632d3f9fdfc2886d6d475415245333810479b0c0b3c79c943488d8c80
+Branch: main
+Files committed: 1
+Message: first
+Staged: b.txt
+Object hash: 11507a0e2f5e69d5dfa40a62a1bd7b6ee57e6bcd85c67c9b8431b36fff21c437
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutRefusesToOverwriteLocalChanges" classname="com.minigit.core.BranchManagerTest" time="0.032">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 986a428484f6a9d1196e8c52dc355aed2c2f3c7d30141d54533f9cc3fe8e2c99
+Branch: main
+Files committed: 1
+Message: first
+Staged: a.txt
+Object hash: 3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3
+Commit created successfully!
+Commit hash: 779579400302d7b710fcf1cd2866620701cfb1300bc29500850fd3c2c3bd1f37
+Branch: feature
+Files committed: 1
+Message: second
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutKeepsLocalChangesToSharedFiles" classname="com.minigit.core.BranchManagerTest" time="0.047">
+    <system-out><![CDATA[Staged: shared.txt
+Object hash: 44ddaf494d05aede3cc002dc21fdcf86e5da1d9c1a9001fb0e05e6dd7c838564
+Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 57b1fbd415651ee560379edf42de8e0c6269b0df2659ec8a9092131adf0edc0b
+Branch: main
+Files committed: 2
+Message: first
+Staged: a.txt
+Object hash: 3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3
+Commit created successfully!
+Commit hash: ed17e2751c3c1e69ed70526c82b349ac5a02bff9fcbaea3adf12a4685ae543ec
+Branch: feature
+Files committed: 2
+Message: second
+]]></system-out>
+  </testcase>
+  <testcase name="cannotCreateBranchBeforeFirstCommit" classname="com.minigit.core.BranchManagerTest" time="0.01"/>
+  <testcase name="listsCurrentBranchBeforeFirstCommit" classname="com.minigit.core.BranchManagerTest" time="0.002"/>
+  <testcase name="checkoutRefusesWhenFilesAreStaged" classname="com.minigit.core.BranchManagerTest" time="0.038">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 932e4c9924770f2aefae627865434372d5cc71b832cbe69f7f250acb463c1970
+Branch: main
+Files committed: 1
+Message: first
+Staged: a.txt
+Object hash: 3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3
+Commit created successfully!
+Commit hash: 7530413bc240183ca13775f42a55a90ba8ffc5e94df6b3ff1cc9fbcceedc448b
+Branch: feature
+Files committed: 1
+Message: second
+Staged: new.txt
+Object hash: 8d906d61f92c9696387e566ecee255b733c79536074173a8eab915bad2d1fa28
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutOfCurrentBranchIsANoOp" classname="com.minigit.core.BranchManagerTest" time="0.01">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 1dbe1fc91ce4032cb1fe65f6a7bd3bb05bfe4fb1490a36a66613db5a253183b0
+Branch: main
+Files committed: 1
+Message: first
+]]></system-out>
+  </testcase>
+  <testcase name="commitsGoToTheCurrentBranchOnly" classname="com.minigit.core.BranchManagerTest" time="0.032">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: aa09f3cca60db962f90af80a98cd16cdfa9f0bb348cfe2c5a1abca513eadc3b6
+Branch: main
+Files committed: 1
+Message: first
+Staged: a.txt
+Object hash: 3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3
+Commit created successfully!
+Commit hash: 2857d5ea021b1e2694ca9aeca1fc6ddda26d9e80cf5b7c42756f00d0dafda340
+Branch: feature
+Files committed: 1
+Message: second
+]]></system-out>
+  </testcase>
+  <testcase name="checkoutOfUnknownBranchFails" classname="com.minigit.core.BranchManagerTest" time="0.019">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 6082e9738241473548ba7ad43076a2d3a198e5118a9e779828312039107e7404
+Branch: main
+Files committed: 1
+Message: first
+]]></system-out>
+  </testcase>
+  <testcase name="createBranchRejectsUnknownStartPoint" classname="com.minigit.core.BranchManagerTest" time="0.013">
+    <system-out><![CDATA[Staged: a.txt
+Object hash: 7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed
+Commit created successfully!
+Commit hash: 01b535690e6aae7e36c0eae71b48c6516e484db2d6b69facbed2bf6b7461f6cc
+Branch: main
+Files committed: 1
+Message: first
+]]></system-out>
+  </testcase>
+</testsuite>

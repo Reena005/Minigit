@@ -1,0 +1,9 @@
+com\minigit\core\DeletionAndRenameTest.class
+com\minigit\core\TestRepository.class
+com\minigit\core\BranchManagerTest.class
+com\minigit\core\UndoManagerTest.class
+com\minigit\core\IntegrityCheckerTest.class
+com\minigit\database\DatabasePersistenceTest.class
+com\minigit\core\RepositoryTest.class
+com\minigit\core\ReflogTest.class
+com\minigit\core\StagingManagerTest.class
